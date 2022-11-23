@@ -1,0 +1,40 @@
+.container{
+    background:rgb(27, 83, 27);
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote{
+    background:rgb(37, 110, 37);
+    width:40%;
+    height:40%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 4px rgba(0,0,0,0.59);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size:20px;
+        text-align: center;
+        margin:0 20px;
+        color:white;
+        font-weight: bolder;
+    }
+}
+.button{
+    background: rgb(106, 206, 106);
+    padding:20px;
+    border-radius: 50%;
+    outline: none;
+    margin:-30px;
+
+    &:hover{
+        box-shadow: 0px 1px 5px 4px rgba(56, 197, 51, 0.59);
+        transition: .5s ease-in-out;
+    }
+}
